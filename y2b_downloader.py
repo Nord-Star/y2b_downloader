@@ -8,7 +8,7 @@ After downloading you'll hear 'Download complete!'.
 
 import youtube_dl  # Library for downloading from YouTube
 import PySimpleGUI as sg  # Library for the interface
-from playsound2 import playsound  # Library for playing sounds
+from playsound import playsound  # Library for playing sounds; install only version 1.2.2
 
 # Interface
 sg.theme('DarkBlue3')
